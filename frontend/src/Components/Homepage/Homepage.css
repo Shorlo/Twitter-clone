@@ -1,0 +1,11 @@
+.homepage_top
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage__top
+{
+    display: flex;
+    
+}
