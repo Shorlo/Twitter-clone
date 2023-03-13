@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --white: white;
+  --grey: #c5c5c5;
+  --grey-2: #838282;
+  --twitter-primary: #50b7f5;
+  --twitter-primary-2: #83c6f0;
+  --twitter-secondary: #e6ecf0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*common css*/
+.logo
+{
+    height: 3rem;
+}
+
+.primary__button, .secondary__button
+{
+    border-radius: 30px;
+    padding: 0.6rem 0;
+    font-size: bold;
+    border: 1.5px solid var(--grey);
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.primary__button
+{
+    background-color: var(--white);
+}
+
+.primary__button:hover
+{
+    background-color: var(--twitter-secondary);
+}
+
+.secondary__button
+{
+    color: var(--white);
+    background-color: var(--twitter-primary);
+}
+
+.secondary__button:hover
+{
+    background-color: var(--twitter-primary-2);
 }
