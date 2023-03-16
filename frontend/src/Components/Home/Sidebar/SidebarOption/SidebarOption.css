@@ -1,4 +1,36 @@
 .sidebar-option
 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: start;
+    border-radius: 33px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    width: fit-content;
+    margin: 0.4rem 0;
+}
 
+.sidebar-option:hover
+{
+    background-color: var(--twitter-secondary);
+    transition: background-color 0.2s;
+
+}
+
+.sidebar-option__icon
+{
+    font-size: 1.8rem !important;
+}
+
+.sidebar-option__label
+{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.sidebar-option__active h2
+{
+    font-weight: 600;
 }
