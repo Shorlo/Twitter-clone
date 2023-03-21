@@ -1,4 +1,17 @@
 .feed
 {
-    flex: 0.4;
+    flex: 0.5;
+    width: 100%;
+    border-left: 1px solid var(--twitter-secondary);
+    border-right: 1px solid var(--twitter-secondary);
+    height: 100vh;
+}
+.feed__header
+{
+    padding: 0.5rem 1rem;
+}
+
+.feed__header h2
+{
+    font-size: 1.3rem;
 }
