@@ -1,4 +1,11 @@
 .widgets
 {
     flex: 0.3;
+    height: 100vh;
+}
+
+.widgets__container
+{
+    width: 100%;
+    
 }
